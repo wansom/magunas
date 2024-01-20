@@ -8,7 +8,7 @@ export default function Home() {
       <section className=" banner relative bg-center bg-cover min-h-[506px] w-full flex flex-col items-center justify-center gap-3">
         <div className="absolute inset-0 bg-gray-800 opacity-50"></div>
 
-        <h1 className="relative z-10 text-[64px] font-bold text-white uppercase">
+        <h1 className="relative z-10 md: text-[32px] md:text-[64px] font-bold text-white uppercase text-center">
           Magunas Supermarket
         </h1>
         <p className="relative z-10 text-[24px] text-white font-semibold">Sherehekea Bei Ya Mwananchi</p>
@@ -76,34 +76,34 @@ export default function Home() {
       <section className="container mx-auto px-5 md:px-20 py-12 grid grid-cols-1 md:grid-cols-3 gap-5">
         <div className="space-y-4">
           <h1 className="text-4xl">
-          Affordability is the only language we speak.</h1>
+            Affordability is the only language we speak.</h1>
           <p>
             We're commited to offering quality products at affordable prices
-            Every time you walk into any of our stores, you don’t think about how the product got onto our shelf for you to place it in your shopping cart because that’s for us to worry about. <br/>
+            Every time you walk into any of our stores, you don’t think about how the product got onto our shelf for you to place it in your shopping cart because that’s for us to worry about. <br />
             Every time you walk into any of our stores, you don’t think about how the product got onto our shelf for you to place it in your shopping cart because that’s for us to worry about.
 
-        </p>
+          </p>
         </div>
-        <img src="/home/service-1.jpg" className="object-cover w-full rounded-lg"/>
-        <img src="/home/service-2.jpg" className="object-cover w-full rounded-lg"/>
+        <img src="/home/service-1.jpg" className="object-cover w-full rounded-lg" />
+        <img src="/home/service-2.jpg" className="object-cover w-full rounded-lg" />
 
       </section>
       <section className="container mx-auto px-5 md:px-20 py-8 grid grid-cols-1 md:grid-cols-2 gap-5">
         <div className="bg-[#F1C82D] rounded-lg p-4 space-y-5">
-          <img className="rounded-lg w-full object-cover h-80" src="/home/images.jpg"/>
+          <img className="rounded-lg w-full object-cover h-80" src="/home/images.jpg" />
           <h1 className="text-2xl">We're always there for you and always at your service</h1>
           <p >Every time you walk into any of our stores, you don’t think about how the product got onto our shelf for you to place it in your shopping cart because that’s for us to worry about.
 
-</p>
+          </p>
 
 
         </div>
         <div className="bg-[#6FBF42] rounded-lg p-4 space-y-5">
-          <img className="rounded-lg w-full object-cover h-80" src="/home/offers-2.jpg"/>
+          <img className="rounded-lg w-full object-cover h-80" src="/home/offers-2.jpg" />
           <h1 className="text-2xl">We're commited to offering quality products at affordable prices</h1>
           <p >Every time you walk into any of our stores, you don’t think about how the product got onto our shelf for you to place it in your shopping cart because that’s for us to worry about.
 
-</p>
+          </p>
 
 
         </div>
@@ -111,12 +111,12 @@ export default function Home() {
       <section className="about">
         <h1 className="text-[64px] font-bold text-center mt-12">Our Mantra</h1>
         <h2 className="text-2xl font-semibold text-center">“We exist to make other peoples’ lives better’’</h2>
-      <div class="about-cards container mx-auto px-5 md:px-20 flex items-center md:items-start flex-col md:flex-row justify-between gap-5">
+        <div class="about-cards container mx-auto px-5 md:px-20 flex items-center md:items-start flex-col md:flex-row justify-between gap-5">
           <div class="ellipse"></div>
           <div class="about-card w-80 md:w-[260px] rounded-lg">
-    
+
             <span class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                 <path d="M8.3617 27.4662C8.45435 27.3019 8.46754 27.1069 8.39782 26.9324C8.32809 26.7579 8.18241 26.6214 7.99903 26.5587C6.28793 25.9845 4.39815 26.1837 2.85759 27.1007C1.31704 28.0176 0.290853 29.554 0.0656984 31.2806C0.04187 31.4636 0.101441 31.6476 0.22914 31.7854C0.35684 31.9232 0.540253 32.0014 0.732365 32H6.6857C7.05389 32 7.35237 31.7134 7.35237 31.36C7.35026 30.0021 7.69693 28.6648 8.3617 27.4662Z" fill="#F0C72B" />
                 <path d="M21.3522 14.72C21.1828 14.7205 21.0149 14.6896 20.8576 14.6291C20.5292 14.503 20.2665 14.2568 20.1272 13.9448C19.9879 13.6327 19.9835 13.2803 20.1149 12.9651C20.8649 11.1718 22.033 9.56745 23.5296 8.27519C24.079 7.81618 24.9104 7.86535 25.397 8.38561C25.8836 8.90587 25.8452 9.70471 25.3109 10.1798C24.1192 11.2093 23.1888 12.4869 22.5909 13.9149C22.3885 14.4013 21.8978 14.7202 21.3522 14.72Z" fill="#F0C72B" />
                 <path d="M10.6869 14.72C10.1413 14.7202 9.65066 14.4013 9.44825 13.9149C8.85036 12.4869 7.91993 11.2093 6.72825 10.1798C6.19391 9.70471 6.15558 8.90587 6.64216 8.38561C7.12874 7.86535 7.96017 7.81618 8.50958 8.27519C10.0062 9.56745 11.1743 11.1718 11.9242 12.9651C12.0883 13.3593 12.0381 13.8059 11.7902 14.1575C11.5424 14.509 11.1291 14.7197 10.6869 14.72Z" fill="#F0C72B" />
@@ -171,7 +171,7 @@ export default function Home() {
               </g>
             </svg>
             <span class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M32 10.6667C32 11.403 31.403 12 30.6667 12C28.4575 12 26.6667 13.7909 26.6667 16C26.6667 18.2091 28.4575 20 30.6667 20C31.403 20 32 20.597 32 21.3333V24.6667C32 25.5507 31.6488 26.3986 31.0237 27.0237C30.3986 27.6488 29.5507 28 28.6667 28H3.33333C1.49238 28 0 26.5076 0 24.6667V21.3333C0 20.597 0.596954 20 1.33333 20C3.54247 20 5.33333 18.2091 5.33333 16C5.33333 13.7909 3.54247 12 1.33333 12C0.596954 12 0 11.403 0 10.6667V7.33333C0 5.49238 1.49238 4 3.33333 4H28.6667C29.5507 4 30.3986 4.35119 31.0237 4.97631C31.6488 5.60143 32 6.44928 32 7.33333V10.6667ZM18.4813 16.8733L20.28 15.42L20.2853 15.4187C20.5051 15.2412 20.5892 14.9444 20.4951 14.678C20.401 14.4116 20.1492 14.2334 19.8667 14.2333H17.9413C17.8069 14.2336 17.6855 14.1532 17.6333 14.0293L16.6133 11.588C16.5094 11.3405 16.2671 11.1795 15.9987 11.1795C15.7302 11.1795 15.4879 11.3405 15.384 11.588L14.3533 14.0307C14.3014 14.1541 14.1806 14.2344 14.0467 14.2347H12.1253C11.8428 14.2347 11.591 14.4129 11.4969 14.6793C11.4028 14.9457 11.4869 15.2425 11.7067 15.42L13.5053 16.8747C13.6173 16.9646 13.6587 17.1163 13.608 17.2507L12.7333 19.5827C12.6306 19.8573 12.7194 20.1669 12.9521 20.3453C13.1848 20.5237 13.5067 20.5292 13.7453 20.3587L15.8 18.892C15.9156 18.8092 16.0711 18.8092 16.1867 18.892L18.2427 20.3587C18.4815 20.5286 18.8032 20.5226 19.0356 20.3439C19.2679 20.1652 19.3563 19.8558 19.2533 19.5813L18.3787 17.2493C18.328 17.115 18.3694 16.9633 18.4813 16.8733Z" fill="#F39711" />
               </svg>
             </span>
@@ -208,13 +208,128 @@ export default function Home() {
       </section>
       <section className="container mx-auto px-5 md:px-20 py-8">
         <div className="banner bg-cover bg-center w-full h-[500px] rounded-lg flex justify-center items-end">
-          <div className="bg-[#6FBF42] w-[50%] p-5 mt-20 text-white text-xl">
+          <div className="bg-[#6FBF42] w-[90%] md:w-[50%] p-5 text-white">
             <p>For us, it is not just about providing a platform for retail trade but complementing the lifestyles of those who seek our services and offering an experience through our excellent customer service.</p>
 
           </div>
-          
+
         </div>
       </section>
+
+
+      <footer class="bg-gray-900">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+          <div class="md:flex justify-between gap-10">
+            <div class="mb-6 md:mb-0 basis-1/3 ">
+              <a href="/" class="space-y-4">
+                <img src="/logo.png" class="h-8 me-3 mb-4" alt="Logo" />
+                <span class="self-center text-10 font-semibold text-white">Follow and interact with us on our social media platforms and stay updated. We post offers, news, and much more. At Naivas, we’re committed to giving you value.</span>
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 basis-2/3 justify-between">
+              <div>
+                <h2 class="mb-6 text-sm font-semibold uppercase text-white">About</h2>
+                <ul class="text-gray-500 dark:text-gray-200 font-medium space-y-4">
+
+                  <li>
+                    <a href="/" class="hover:underline">Opportunities</a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline">Leadership</a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline">Accolades</a>
+                  </li>
+                  <li class="">
+                    <a href="/" class="hover:underline">FAQs</a>
+                  </li>
+                  <li>
+                    <a href="/" class="hover:underline">Contacts</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h2 class="mb-6 text-sm font-semibold text-white uppercase">Locations</h2>
+                <ul class="text-gray-500 dark:text-gray-400 font-medium space-y-4">
+                  <li class="">
+                    <a href="https://github.com/themesberg/flowbite" class="hover:underline ">All
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Nairobi</a>
+                  </li>
+                  <li>
+                    <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Nakuru</a>
+                  </li>
+                  <li>
+                    <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Mombasa</a>
+                  </li>
+                  <li>
+                    <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Kiambu</a>
+                  </li>
+                  <li>
+                    <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Eldoret</a>
+                  </li>
+                  <li>
+                    <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Kisumu</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h2 class="mb-6 text-sm font-semibold text-white">Offers</h2>
+                <ul class="text-gray-500 dark:text-gray-400 font-medium space-y-4">
+                  <li class="mb-4">
+                    <a href="#" class="hover:underline">Deals</a>
+                  </li>
+                  <li>
+                    <a href="#" class="hover:underline">Store Locator</a>
+                  </li>
+                  <li>
+                    <a href="#" class="hover:underline">Shop Online</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+          <div class="sm:flex sm:items-center sm:justify-between">
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© {new Date().getFullYear()} <a href="/" class="hover:underline">Magunas</a>. All Rights Reserved.
+            </span>
+            <div class="flex mt-4 sm:justify-center sm:mt-0">
+              <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+                  <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd" />
+                </svg>
+                <span class="sr-only">Facebook page</span>
+              </a>
+              <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 16">
+                  <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z" />
+                </svg>
+                <span class="sr-only">Discord community</span>
+              </a>
+              <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                  <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd" />
+                </svg>
+                <span class="sr-only">Twitter page</span>
+              </a>
+              <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clip-rule="evenodd" />
+                </svg>
+                <span class="sr-only">GitHub account</span>
+              </a>
+              <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z" clip-rule="evenodd" />
+                </svg>
+                <span class="sr-only">Dribbble account</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
 
     </main>
   );
