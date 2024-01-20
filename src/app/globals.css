@@ -182,6 +182,110 @@ nav {
 
 /* == || Banner == */
 
+.about a {
+  width: 157px;
+  height: 40px;
+  background: var(--white);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--primary);
+}
+
+.about-cards {
+  position: relative;
+  padding: 60px 0px 0px;
+}
+
+.about-cards h1 {
+  color: var(--light-grey);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  /* 72px */
+  text-transform: uppercase;
+}
+
+.about-cards P {
+  color: var(--light-grey);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 24px */
+}
+
+.about-card {
+  height: 260px;
+  padding: 24px;
+  overflow: hidden;
+  position: relative;
+}
+
+.about-card svg#ellipse {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.about-card .card-text {
+  position: absolute;
+  bottom: 24px;
+  left: 14px;
+}
+
+.about-card span.icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.about-card span.icon svg {
+  width: 30px;
+  height: 30px;
+}
+
+.about-card .card-text h2 {
+  color: var(--light-grey);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.about-card .card-text p {
+  color: var(--light-grey);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.about-card:nth-child(2) {
+  background-color: #F0C72B;
+}
+
+.about-card:nth-child(3) {
+  background-color: var(--black-level-nd);
+}
+
+.about-card:nth-child(4) {
+  background-color: var(--primary);
+}
+
+.about-card:nth-child(5) {
+  background-color: #2d3748;
+}
+
+
 
 
 /* == RESPONSIVE == */
