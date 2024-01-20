@@ -206,6 +206,15 @@ export default function Home() {
         </div>
 
       </section>
+      <section className="container mx-auto px-5 md:px-20 py-8">
+        <div className="banner bg-cover bg-center w-full h-[500px] rounded-lg flex justify-center items-end">
+          <div className="bg-[#6FBF42] w-[50%] p-5 mt-20 text-white text-xl">
+            <p>For us, it is not just about providing a platform for retail trade but complementing the lifestyles of those who seek our services and offering an experience through our excellent customer service.</p>
+
+          </div>
+          
+        </div>
+      </section>
 
     </main>
   );
