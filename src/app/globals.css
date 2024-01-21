@@ -292,7 +292,7 @@ nav {
 /* Medium devices (landscape tablets, 768px and up) */
 @media screen and (max-width: 994px) {
   nav {
-    height: 120px;
+    height: fit-content;
   }
 
   .menu-btn {
