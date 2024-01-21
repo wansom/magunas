@@ -8,10 +8,10 @@ export default function Home() {
       <section className="anner relative bg-center bg-cover min-h-[506px] w-full flex flex-col items-center justify-center gap-3 px-5 md:px-20">
         <div className="absolute inset-0 bg-gray-800 opacity-50"></div>
 
-        <h1 className="relative z-10 text-[32px] md:text-[64px] font-bold text-white uppercase text-center">
+        <h1 className="relative z-10 text-[24px] md:text-[64px] font-bold text-white uppercase text-center">
           Magunas Supermarket
         </h1>
-        <p className="relative z-10 text-[24px] text-white font-semibold">Sherehekea Bei Ya Mwananchi</p>
+        <p className="relative z-10  text-[16px] md:text-[24px] text-white font-semibold text-center">Sherehekea Bei Ya Mwananchi</p>
         <button className="relative text-white border-white border-2 border-solid px-10 py-2 rounded-lg flex items-center gap-2 justify-center mt-6">Find the Nearest Store<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
           <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
         </svg>
