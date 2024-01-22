@@ -25,7 +25,7 @@ const Navbar = () => {
                 </svg>
               </span>
             </div>
-            <a href="/#about-id" class="active">About Us</a>
+            <a href="/about" class="active">About Us</a>
             <a href="/#insights">Locations</a>
             <a href="/#culture">Offers</a>
             <a href="/blog">Opportunity</a>
