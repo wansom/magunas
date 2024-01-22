@@ -12,7 +12,7 @@ export default function Home() {
           Magunas Supermarket
         </h1>
         <p className="relative z-10  text-[16px] md:text-[24px] text-white font-semibold text-center">Sherehekea Bei Ya Mwananchi</p>
-        <button className="relative text-white border-white border-2 border-solid px-10 py-2 rounded-lg flex items-center gap-2 justify-center mt-6">Find the Nearest Store<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+        <button className="relative text-white hover:border-white hover:border-2 hover:border-solid px-10 py-2 rounded-lg flex items-center gap-2 justify-center mt-6 bg-[#F1C82D] hover:bg-transparent">Find the Nearest Store<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
           <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
         </svg>
         </button>
@@ -53,9 +53,10 @@ export default function Home() {
               <br></br>
               The supermarket strives to offer customers a unique and exceptional shopping experience. Customers always seek quality products at reasonable prices.
             </p>
-            <a href='#contact' className='flex items-center text-[#F1C82D]'>Learn about our Journey <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-            </svg></a>
+            <button className="relative text-white hover:border-[#F1C82D] hover:border-2 hover:border-solid px-10 py-2 rounded-lg flex items-center gap-2 justify-center mt-6 bg-[#F1C82D] hover:bg-transparent hover:text-[#F1C82D]">Learn More<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+        </svg>
+        </button>
             <hr className='h-[1px] bg-black w-full my-2' />
           </div>
           <div className="space-y-3">
@@ -64,9 +65,10 @@ export default function Home() {
               <br></br>
               The supermarket strives to offer customers a unique and exceptional shopping experience. Customers always seek quality products at reasonable prices.
             </p>
-            <a href='#contact' className='flex items-center text-[#F1C82D]'>Learn about our Journey <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-            </svg></a>
+            <button className="relative text-white hover:border-[#F1C82D] hover:border-2 hover:border-solid px-10 py-2 rounded-lg flex items-center gap-2 justify-center mt-6 bg-[#F1C82D] hover:bg-transparent hover:text-[#F1C82D]">Learn More<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+        </svg>
+        </button>
             <hr className='h-[1px] bg-black w-full my-2' />
           </div>
 
