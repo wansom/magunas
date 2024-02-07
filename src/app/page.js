@@ -41,23 +41,24 @@ export default function Home() {
       </section>
       <section className="container px-5 md:px-20 mx-auto flex flex-col md:flex-row gap-10 py-6">
         <div className="basis-2/2 md:basis-1/2">
-        <div className="flex items-center gap-2 ">
-          <div className="space-y-2 basis-1/2">
-            <img src="/3.jpg" className="rounded-lg w-full object-cover"></img>
-            <img src="/4.jpg" className="rounded-lg w-full object-cover"></img>
+          <div className="flex items-center gap-2 ">
+            <div className="space-y-2 basis-1/2">
+              <img src="/3.jpg" className="rounded-lg w-full object-cover"></img>
+              <img src="/4.jpg" className="rounded-lg w-full object-cover"></img>
+              <img src="/7.jpg" className="rounded-lg w-full object-cover"></img>
+            </div>
+            <div className="rounded-lg my-10 basis-1/2">
+              <img src="/8.png" className=" object-cover rounded-lg"></img>
+            </div>
+
           </div>
-          <div className="rounded-lg my-10 basis-1/2">
-          <img src="/8.png" className=" object-cover rounded-lg"></img>
-          </div>
-          
         </div>
-        </div>
-       
+
         <div className="mt-10 basis-1/2 space-y-4">
           <div className="space-y-3">
             <h1 className="text-4xl font-bold">Our Business</h1>
             <p>
-              Over 30 years ago what was once a small wholesale shop know as <span className="font-bold">“Maguna Andu”</span> wholesalers in the heart of Muranga has evolved into a “Mega Chain of Supermarket thanks to its efficient running through its management and board of directors and through the immense support that it is has continuously receiving from its esteemed customers.<br/> <span className="font-bold">Magunas Supermarket</span> is a chain of supermarket that conducts retail and whole sale business. Its mainly focuses on : the day to day household commodities, electronics and appliances, clothing and beddings, fresh farm supplies and many others.
+              Over 30 years ago what was once a small wholesale shop know as <span className="font-bold">“Maguna Andu”</span> wholesalers in the heart of Muranga has evolved into a “Mega Chain of Supermarket thanks to its efficient running through its management and board of directors and through the immense support that it is has continuously receiving from its esteemed customers.<br /> <span className="font-bold">Magunas Supermarket</span> is a chain of supermarket that conducts retail and whole sale business. Its mainly focuses on : the day to day household commodities, electronics and appliances, clothing and beddings, fresh farm supplies and many others.
               Its main branch office/ supermarket is currently located in Mukuyu but due to the urgent need of expansion to meet the customer needs it has been fortunate enough to open branches in various parts of the country. It currently has 22 branches and it
               intends to open more branches as its aim and purpose is to serve affordable and quality services to its customers.
 
@@ -73,42 +74,60 @@ export default function Home() {
         </div>
 
       </section>
-      <section className="container mx-auto px-5 md:px-20 py-12 grid grid-cols-1 md:grid-cols-3 gap-5">
+      <section className="container mx-auto px-5 md:px-20 py-12 grid grid-cols-1 md:grid-cols-2 gap-10 bg-[#ECFFDC]">
         <div className="space-y-4">
           <h1 className="text-4xl">
-            Affordability is the only language we speak.</h1>
-          <p>
-            We're commited to offering quality products at affordable prices
-            Every time you walk into any of our stores, you don’t think about how the product got onto our shelf for you to place it in your shopping cart because that’s for us to worry about. <br />
-            Every time you walk into any of our stores, you don’t think about how the product got onto our shelf for you to place it in your shopping cart because that’s for us to worry about.
-
-          </p>
+            OUR IMPACT</h1>
+          <ul className="list-disc space-y-3">
+            <li>Availability of a wide range of products under one roof which saves a lot of time for the consumer
+            </li>
+            <li>Creation of employment, we have created over 2,500 jobs.
+            </li><li>We offer the best prices in the market and offer a wide range of products to meet our customers needs
+            </li><li>We run various promotional schemes from time to time in the form of discounts, offers and contests which makes shopping a rewarding experience.
+            </li>
+            <li>Our branches are located in prime locations in the country which has led to infrastructural growth in the areas.
+              Our branches are located in prime locations in the country which has led to infrastructural growth in the areas.
+            </li>
+          </ul>
         </div>
-        <img src="/home/service-1.jpg" className="object-cover w-full rounded-lg" />
-        <img src="/home/service-2.jpg" className="object-cover w-full rounded-lg" />
+        <img src="/9.jpg" className="w-full rounded-lg" />
+
 
       </section>
       <section className="container mx-auto px-5 md:px-20 py-8 grid grid-cols-1 md:grid-cols-2 gap-5">
-        <div className="bg-[#F1C82D] rounded-lg p-4 space-y-5">
-          <img className="rounded-lg w-full object-cover h-80" src="/home/images.jpg" />
-          <h1 className="text-2xl">We're always there for you and always at your service</h1>
-          <p >Every time you walk into any of our stores, you don’t think about how the product got onto our shelf for you to place it in your shopping cart because that’s for us to worry about.
+        <div className="bg-[#6FBF42] rounded-lg p-4 space-y-5">
+          <img className="rounded-lg w-full object-cover h-80" src="/home/offers-2.jpg" />
+          <h1 className="text-2xl">CORPORATE SOCIAL RESPONSIBILITY</h1>
+          <p >Magunas is actively involved in contributing to the society through programs such as :
+
 
           </p>
+          <ul className=" list-decimal list-inside">
+            <li>Wings to Fly initiative
+            </li>
+            <li>The company donates a percentage of its revenue to charitable causes in the society
+            </li>
+            <li>Running mid and end year food drive throughs where we donate food supplies
+            </li>
+            <li>Assist the elderly in the community
+            </li>
+          </ul>
 
 
         </div>
-        <div className="bg-[#6FBF42] rounded-lg p-4 space-y-5">
-          <img className="rounded-lg w-full object-cover h-80" src="/home/offers-2.jpg" />
-          <h1 className="text-2xl">We're commited to offering quality products at affordable prices</h1>
-          <p >Every time you walk into any of our stores, you don’t think about how the product got onto our shelf for you to place it in your shopping cart because that’s for us to worry about.
+        <div className="bg-[#F1C82D] rounded-lg p-4 space-y-5">
+          <img className="rounded-lg w-full object-cover h-80" src="/10.jpg" />
+          <h1 className="text-2xl">ENVIROMENTAL MANAGEMENT</h1>
+          <p >In providing an eco- friendly environment to our customers and the business. We have included eco- friendly practices such as substitution of plastic packaging bags with polypropylene carrier bags, installing a recycle bin in every entry and exit points where customers dispose the non- organic materials and we proceed to recycle them for various uses, Installation of solar panels installing of
+            solar panels and many other practices. This way we are able to protect our environment and continue to serve the community.
+
 
           </p>
 
 
         </div>
       </section>
-      <section className="about">
+      <section className="about bg-[#ECFFDC] py-12">
         <h1 className="text-[64px] font-bold text-center mt-12">Our Mantra</h1>
         <h2 className="text-2xl font-semibold text-center">“We exist to make other peoples’ lives better’’</h2>
         <div class="about-cards container mx-auto px-5 md:px-20 flex items-center md:items-start flex-col md:flex-row justify-between gap-5">
@@ -207,7 +226,7 @@ export default function Home() {
 
       </section>
       <section className="container mx-auto px-5 md:px-20 py-8">
-        <div className="banner bg-cover bg-center w-full h-[500px] rounded-lg flex justify-center items-end">
+        <div className="banner-2 bg-cover bg-center w-full h-[500px] rounded-lg flex justify-center items-end">
           <div className="bg-[#6FBF42] w-[90%] md:w-[50%] p-5 text-white">
             <p>For us, it is not just about providing a platform for retail trade but complementing the lifestyles of those who seek our services and offering an experience through our excellent customer service.</p>
 
