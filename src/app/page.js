@@ -1,4 +1,5 @@
 
+import Image from "next/image";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
@@ -43,12 +44,12 @@ export default function Home() {
         <div className="basis-2/2 md:basis-1/2">
           <div className="flex items-center gap-2 ">
             <div className="space-y-2 basis-1/2">
-              <img src="/3.jpg" className="rounded-lg w-full object-cover"></img>
-              <img src="/4.jpg" className="rounded-lg w-full object-cover"></img>
-              <img src="/7.jpg" className="rounded-lg w-full object-cover"></img>
+              <Image height={300} width={800} src="/3.jpg" className="rounded-lg"/>
+              <Image height={300} width={800} src="/4.jpg" className="rounded-lg"/> 
+              <Image height={300} width={800} src="/7.jpg" className="rounded-lg"/> 
             </div>
             <div className="rounded-lg my-10 basis-1/2">
-              <img src="/8.png" className=" object-cover rounded-lg"></img>
+            <Image height={800} width={300} src="/8.jpg" className="rounded-lg"/> 
             </div>
 
           </div>
@@ -90,13 +91,13 @@ export default function Home() {
             </li>
           </ul>
         </div>
-        <img src="/9.jpg" className="w-full rounded-lg" />
-
+       
+        <Image height={300} width={800} src="/9.jpg" className="rounded-lg"/> 
 
       </section>
       <section className="container mx-auto px-5 md:px-20 py-8 grid grid-cols-1 md:grid-cols-2 gap-5">
         <div className="bg-[#6FBF42] rounded-lg p-4 space-y-5">
-          <img className="rounded-lg w-full object-cover h-80" src="/home/offers-2.jpg" />
+          <img className="rounded-lg w-full object-cover md:h-[340px]" src="/home/offers-2.jpg" />
           <h1 className="text-2xl">CORPORATE SOCIAL RESPONSIBILITY</h1>
           <p >Magunas is actively involved in contributing to the society through programs such as :
 
@@ -116,7 +117,7 @@ export default function Home() {
 
         </div>
         <div className="bg-[#F1C82D] rounded-lg p-4 space-y-5">
-          <img className="rounded-lg w-full object-cover h-80" src="/10.jpg" />
+        <Image height={200} width={550} src="/7.jpg" className="rounded-lg"/> 
           <h1 className="text-2xl">ENVIROMENTAL MANAGEMENT</h1>
           <p >In providing an eco- friendly environment to our customers and the business. We have included eco- friendly practices such as substitution of plastic packaging bags with polypropylene carrier bags, installing a recycle bin in every entry and exit points where customers dispose the non- organic materials and we proceed to recycle them for various uses, Installation of solar panels installing of
             solar panels and many other practices. This way we are able to protect our environment and continue to serve the community.
