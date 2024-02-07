@@ -7,7 +7,7 @@ export default function Home() {
     <main className="overflow-x-hidden">
       <Navbar />
       <section className="banner relative bg-center bg-cover min-h-[506px] w-full flex flex-col items-center justify-center gap-3 px-5 md:px-20">
-        <div className="absolute inset-0 bg-gray-800 opacity-50"></div>
+        <div className="absolute inset-0 bg-black opacity-60"></div>
 
         <h1 className="relative z-10 text-[24px] md:text-[64px] font-bold text-white uppercase text-center">
           Magunas Supermarket
