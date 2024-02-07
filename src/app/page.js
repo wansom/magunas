@@ -39,7 +39,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="container px-5 md:px-20 mx-auto flex flex-col md:flex-row gap-10 py-6">
+      <section className="container px-5 md:px-20 mx-auto flex flex-col-reverse md:flex-row gap-5 md:gap-10 py-6">
         <div className="basis-2/2 md:basis-1/2">
           <div className="flex items-center gap-2 ">
             <div className="space-y-2 basis-1/2">
