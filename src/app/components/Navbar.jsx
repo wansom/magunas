@@ -10,7 +10,7 @@ const Navbar = () => {
           <div class="nav logo">
             <a href="/" class="nav-logo">
               <Image
-                src="/logos.png"
+                src="/logo.png"
                 alt="logo"
                 width={150}
                 height={100}
