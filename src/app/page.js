@@ -40,38 +40,35 @@ export default function Home() {
         </div>
       </section>
       <section className="container px-5 md:px-20 mx-auto flex flex-col md:flex-row gap-10 py-6">
-        <div className=" grid grid-cols-2 gap-2 basis-2/2 md:basis-1/2">
-          <div className="space-y-2">
-            <img src="/home/about-2.jpg" className="rounded-lg w-full object-cover"></img>
-            <img src="/home/about-3.jpg" className="rounded-lg w-full object-cover"></img>
+        <div className="basis-2/2 md:basis-1/2">
+        <div className="flex items-center gap-2 ">
+          <div className="space-y-2 basis-1/2">
+            <img src="/3.jpg" className="rounded-lg w-full object-cover"></img>
+            <img src="/4.jpg" className="rounded-lg w-full object-cover"></img>
           </div>
-          <img src="/home/about-1.jpg" className="rounded-lg w-full object-cover h-[80%] my-10"></img>
+          <div className="rounded-lg my-10 basis-1/2">
+          <img src="/8.png" className=" object-cover rounded-lg"></img>
+          </div>
+          
         </div>
+        </div>
+       
         <div className="mt-10 basis-1/2 space-y-4">
           <div className="space-y-3">
-            <h1 className="text-4xl font-bold">Our Journey</h1>
-            <p>Magunas Supermarket is available in over five counties in Kenya. This makes Simon Wachira among the richest people from the Mt. Kenya region.
-              <br></br>
-              The supermarket strives to offer customers a unique and exceptional shopping experience. Customers always seek quality products at reasonable prices.
+            <h1 className="text-4xl font-bold">Our Business</h1>
+            <p>
+              Over 30 years ago what was once a small wholesale shop know as <span className="font-bold">“Maguna Andu”</span> wholesalers in the heart of Muranga has evolved into a “Mega Chain of Supermarket thanks to its efficient running through its management and board of directors and through the immense support that it is has continuously receiving from its esteemed customers.<br/> <span className="font-bold">Magunas Supermarket</span> is a chain of supermarket that conducts retail and whole sale business. Its mainly focuses on : the day to day household commodities, electronics and appliances, clothing and beddings, fresh farm supplies and many others.
+              Its main branch office/ supermarket is currently located in Mukuyu but due to the urgent need of expansion to meet the customer needs it has been fortunate enough to open branches in various parts of the country. It currently has 22 branches and it
+              intends to open more branches as its aim and purpose is to serve affordable and quality services to its customers.
+
             </p>
             <button className="relative text-white hover:border-[#F1C82D] hover:border-2 hover:border-solid px-10 py-2 rounded-lg flex items-center gap-2 justify-center mt-6 bg-[#F1C82D] hover:bg-transparent hover:text-[#F1C82D]">Learn More<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-        </svg>
-        </button>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+            </svg>
+            </button>
             <hr className='h-[1px] bg-black w-full my-2' />
           </div>
-          <div className="space-y-3">
-            <h1 className="text-4xl font-bold">Our Branding to Magunas</h1>
-            <p>Magunas Supermarket is available in over five counties in Kenya. This makes Simon Wachira among the richest people from the Mt. Kenya region.
-              <br></br>
-              The supermarket strives to offer customers a unique and exceptional shopping experience. Customers always seek quality products at reasonable prices.
-            </p>
-            <button className="relative text-white hover:border-[#F1C82D] hover:border-2 hover:border-solid px-10 py-2 rounded-lg flex items-center gap-2 justify-center mt-6 bg-[#F1C82D] hover:bg-transparent hover:text-[#F1C82D]">Learn More<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-        </svg>
-        </button>
-            <hr className='h-[1px] bg-black w-full my-2' />
-          </div>
+
 
         </div>
 
@@ -220,7 +217,7 @@ export default function Home() {
       </section>
 
 
-<Footer/>
+      <Footer />
 
     </main>
   );
