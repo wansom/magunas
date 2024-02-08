@@ -75,6 +75,44 @@ export default function Home() {
         </div>
 
       </section>
+      <section className="container px-5 md:px-20 mx-auto flex flex-col-reverse md:flex-row gap-5 md:gap-10 py-6">
+
+
+        <div className="mt-10 basis-1/2 space-y-4">
+          <div>
+          <div className="space-y-3 mb-5">
+            <h1 className="text-4xl font-bold">Our Leadership</h1>
+            <p>
+            The chain of Magunas Supermarket is a family owned business run by its able founder and Chairman Simon Wachira and the Managing Director Agnes Wachira.
+Both the Chairman and the Managing director have excellent business skills and have instilled the skills into the day to day running Magunas Supermarket.
+Additionally to run the business they have distributed responsibilities in various departments where they have a Head of Department to manage the staff recruited in those departments .
+
+
+            </p>
+            <hr className='h-[1px] bg-black w-full my-2' />
+          </div>
+          <div className="space-y-3">
+            <h1 className="text-4xl font-bold">Our Investors</h1>
+            <p>
+            Since its start up, The Chairman Simon Wachira used his savings as initial capital to start Maguna Andu and in its growth and expansion, he has continued to pump back the money in the business leading to the gradual growth of the business.
+
+
+
+            </p>
+            <hr className='h-[1px] bg-black w-full my-2' />
+          </div>
+          </div>
+         
+
+
+        </div>
+        <div className="basis-2/2 md:basis-1/2">
+          <div className="gap-2 bg-gray-50 flex items-center justify-center rounded-lg ">
+            <Image height={100} width={400} src="/founder.png" className="rounded-lg"/> 
+          </div>
+        </div>
+
+      </section>
       <section className="container mx-auto px-5 md:px-20 py-12 grid grid-cols-1 md:grid-cols-2 gap-10 bg-[#ECFFDC]">
         <div className="space-y-4">
           <h1 className="text-4xl">
