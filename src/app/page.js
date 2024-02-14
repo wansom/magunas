@@ -75,7 +75,7 @@ export default function Home() {
         </div>
 
       </section>
-      <section className="container px-5 md:px-20 mx-auto flex flex-col-reverse md:flex-row gap-5 md:gap-10 py-6">
+      <section className="container px-5 md:px-20 mx-auto flex flex-col-reverse md:flex-row items-center gap-5 md:gap-10 py-6 bg-gray-50">
 
 
         <div className="mt-10 basis-1/2 space-y-4">
@@ -107,9 +107,8 @@ Additionally to run the business they have distributed responsibilities in vario
 
         </div>
         <div className="basis-2/2 md:basis-1/2">
-          <div className="gap-2 bg-gray-50 flex items-center justify-center rounded-lg ">
-            <Image height={100} width={400} src="/founder.png" className="rounded-lg"/> 
-          </div>
+        <Image height={200} width={600} src="/c.jpg" className="rounded-lg"/> 
+        
         </div>
 
       </section>
@@ -155,7 +154,7 @@ Additionally to run the business they have distributed responsibilities in vario
 
         </div>
         <div className="bg-[#F1C82D] rounded-lg p-4 space-y-5">
-        <Image height={200} width={550} src="/7.jpg" className="rounded-lg"/> 
+        <Image height={200} width={550} src="/7.jpg" className="rounded-lg mx-auto"/> 
           <h1 className="text-2xl">ENVIROMENTAL MANAGEMENT</h1>
           <p >In providing an eco- friendly environment to our customers and the business. We have included eco- friendly practices such as substitution of plastic packaging bags with polypropylene carrier bags, installing a recycle bin in every entry and exit points where customers dispose the non- organic materials and we proceed to recycle them for various uses, Installation of solar panels installing of
             solar panels and many other practices. This way we are able to protect our environment and continue to serve the community.
