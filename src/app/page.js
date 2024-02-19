@@ -75,10 +75,10 @@ export default function Home() {
         </div>
 
       </section>
-      <section className="container px-5 md:px-20 mx-auto flex flex-col-reverse md:flex-row items-center gap-5 md:gap-10 py-6 bg-gray-50">
+      <section className="container px-5 md:px-20 mx-auto flex flex-col md:flex-row items-center gap-5 md:gap-10 py-6 bg-gray-50">
 
 
-        <div className="mt-10 basis-1/2 space-y-4">
+        <div className="md:mt-10 basis-1/2 space-y-4">
           <div>
           <div className="space-y-3 mb-5">
             <h1 className="text-4xl font-bold">Our Leadership</h1>
