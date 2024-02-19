@@ -7,10 +7,10 @@ export default function Home() {
   return (
     <main className="overflow-x-hidden">
       <Navbar />
-      <section className="banner relative bg-center bg-cover min-h-[506px] w-full flex flex-col items-center justify-center gap-3 px-5 md:px-20">
+      <section className="banner relative md:bg-center bg-cover min-h-[506px] w-full flex flex-col  items-center justify-end md:justify-center gap-3 px-5 md:px-20 py-10">
         <div className="absolute inset-0 bg-black opacity-30"></div>
 
-        <h1 className="relative z-10 text-[24px] md:text-[64px] font-bold text-white uppercase text-center">
+        <h1 className="relative z-10 text-[24px] md:text-[48px] font-bold text-white uppercase text-center">
           Magunas Supermarket
         </h1>
         <p className="relative z-10  text-[16px] md:text-[24px] text-white font-semibold text-center">Sherehekea Bei Ya Mwananchi</p>
