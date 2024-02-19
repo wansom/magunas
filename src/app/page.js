@@ -165,9 +165,9 @@ export default function Home() {
 
         </div>
       </section>
-      <section className="about bg-[#ECFFDC] py-12">
+      <section className="about bg-[#ECFFDC] py-12  container mx-auto px-5 md:px-20">
         <h1 className="text-4xl font-bold text-center mt-12 italic">Sherehekea bei ya mwananchi</h1>
-        <div class="about-cards container mx-auto px-5 md:px-20 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div class="about-cards grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-5">
 
           <div class="w-full rounded-xl bg-[#F0C72B] p-4">
 
