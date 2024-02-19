@@ -23,19 +23,19 @@ export default function Home() {
         {/* <h1 className="font-semibold text-center text-2xl mx-20 text-black" > An extensive network of branches to provide convenient access to products and serives to our customers</h1> */}
         <div class="relative flex overflow-x-hidden text-[#6FBF42]">
           <div class="py-8 animate-marquee whitespace-nowrap">
-            <span class="text-2xl mx-4">Muranga County-</span>
-            <span class="text-2xl mx-4">Embu County-</span>
-            <span class="text-2xl mx-4">Kawaha Wendani-</span>
-            <span class="text-2xl mx-4">Ruiru-</span>
-            <span class="text-2xl mx-4">Nyeri County-</span>
+            <span class="text-2xl mx-4">Muranga County</span>
+            <span class="text-2xl mx-4">Embu County</span>
+            <span class="text-2xl mx-4">Kawaha Wendani</span>
+            <span class="text-2xl mx-4">Ruiru</span>
+            <span class="text-2xl mx-4">Nyeri County</span>
           </div>
 
           <div class="absolute top-0 py-8 animate-marquee2 whitespace-nowrap">
-            <span class="text-2xl mx-4">Muranga County-</span>
-            <span class="text-2xl mx-4">Embu County-</span>
-            <span class="text-2xl mx-4">Kawaha Wendani-</span>
-            <span class="text-2xl mx-4">Ruiru-</span>
-            <span class="text-2xl mx-4">Nyeri County-</span>
+            <span class="text-2xl mx-4">Muranga County</span>
+            <span class="text-2xl mx-4">Embu County</span>
+            <span class="text-2xl mx-4">Kawaha Wendani</span>
+            <span class="text-2xl mx-4">Ruiru</span>
+            <span class="text-2xl mx-4">Nyeri County</span>
 
           </div>
         </div>
