@@ -8,7 +8,7 @@ export default function Home() {
     <main className="overflow-x-hidden">
       <Navbar />
       <section className="banner relative md:bg-center bg-cover min-h-[506px] w-full flex flex-col  items-center justify-end md:justify-center gap-3 px-5 md:px-20 py-10">
-        <div className="absolute inset-0 bg-black opacity-30"></div>
+        <div className="absolute inset-0 bg-black opacity-20"></div>
 
         <h1 className="relative z-10 text-[24px] md:text-[48px] font-bold text-white uppercase text-center">
           Magunas Supermarket
