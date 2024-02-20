@@ -134,7 +134,7 @@ export default function Home() {
       </section>
       <section className="container mx-auto px-5 md:px-20 py-8 grid grid-cols-1 md:grid-cols-2 gap-5">
         <div className="bg-[#6FBF42] rounded-lg p-4 space-y-5">
-          <img className="rounded-lg w-full object-cover md:h-[340px]" src="/home/offers-2.jpg" />
+          <img className="rounded-lg w-full object-cover md:h-[340px]" src="/home/csr.jpg" />
           <h1 className="text-2xl">CORPORATE SOCIAL RESPONSIBILITY</h1>
           <p >Magunas is actively involved in contributing to the society through programs such as :
 
