@@ -21,21 +21,21 @@ export default function Home() {
       </section>
       <section className="container mx-auto px-5 md:px-20 uppercase  bg-gray-800">
         {/* <h1 className="font-semibold text-center text-2xl mx-20 text-black" > An extensive network of branches to provide convenient access to products and serives to our customers</h1> */}
-        <div class="relative flex overflow-x-hidden text-[#6FBF42]">
-          <div class="py-8 animate-marquee whitespace-nowrap">
-            <span class="text-2xl mx-4">Muranga County</span>
-            <span class="text-2xl mx-4">Embu County</span>
-            <span class="text-2xl mx-4">Kawaha Wendani</span>
-            <span class="text-2xl mx-4">Ruiru</span>
-            <span class="text-2xl mx-4">Nyeri County</span>
+        <div className="relative flex overflow-x-hidden text-[#6FBF42]">
+          <div className="py-8 animate-marquee whitespace-nowrap">
+            <span className="text-2xl mx-4">Muranga County</span>
+            <span className="text-2xl mx-4">Embu County</span>
+            <span className="text-2xl mx-4">Kawaha Wendani</span>
+            <span className="text-2xl mx-4">Ruiru</span>
+            <span className="text-2xl mx-4">Nyeri County</span>
           </div>
 
-          <div class="absolute top-0 py-8 animate-marquee2 whitespace-nowrap">
-            <span class="text-2xl mx-4">Muranga County</span>
-            <span class="text-2xl mx-4">Embu County</span>
-            <span class="text-2xl mx-4">Kawaha Wendani</span>
-            <span class="text-2xl mx-4">Ruiru</span>
-            <span class="text-2xl mx-4">Nyeri County</span>
+          <div className="absolute top-0 py-8 animate-marquee2 whitespace-nowrap">
+            <span className="text-2xl mx-4">Muranga County</span>
+            <span className="text-2xl mx-4">Embu County</span>
+            <span className="text-2xl mx-4">Kawaha Wendani</span>
+            <span className="text-2xl mx-4">Ruiru</span>
+            <span className="text-2xl mx-4">Nyeri County</span>
 
           </div>
         </div>
@@ -167,11 +167,11 @@ export default function Home() {
       </section>
       <section className="about bg-[#ECFFDC] py-12  container mx-auto px-5 md:px-20">
         <h1 className="text-4xl font-bold text-center mt-12 italic">Sherehekea bei ya mwananchi</h1>
-        <div class="about-cards grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="about-cards grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-5">
 
-          <div class="w-full rounded-xl bg-[#F0C72B] p-4">
+          <div className="w-full rounded-xl bg-[#F0C72B] p-4">
 
-            <div class="text-white space-y-3">
+            <div className="text-white space-y-3">
               <h2 className="text-3xl font-bold">Mission</h2>
               <ul className="list-disc list-inside ">
                 <li className="mb-3">To deliver an exceptional shopping experience by offering the best service, value and quality at the best prices in the market while being good stewards of our environment and giving back to the communities we serve.
@@ -181,8 +181,8 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <div class=" w-full rounded-xl bg-[#0E141C] text-white p-4">
-            <div class="card-text">
+          <div className=" w-full rounded-xl bg-[#0E141C] text-white p-4">
+            <div className="card-text">
               <h2 className="font-bold text-3xl mb-3">Quality</h2>
               <ul className="list-disc list-inside space-y-3">
                 <li className="">Providing pleasant shopping experience.
@@ -196,9 +196,9 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <div class=" w-full rounded-lg bg-[#6FBF42] p-4">
+          <div className=" w-full rounded-lg bg-[#6FBF42] p-4">
 
-            <div class="text-white space-y-3">
+            <div className="text-white space-y-3">
               <h2 className="font-bold text-3xl">Our Vision</h2>
               <p>To become the front-runner supermarket in Kenya in which consumers can obtain great bargain and saving from shopping.
 
@@ -218,6 +218,101 @@ export default function Home() {
 
         </div>
       </section>
+      <section className="bg-white dark:bg-gray-900 container mx-auto px-5 md:px-20 py-8 ">
+    <div className="container px-6 py-12 mx-auto">
+
+
+        <div className="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2">
+          <div className="space-y-2">
+          <div>
+            <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">CONTACT US</h1>
+
+            <p className="mt-3 text-gray-500 dark:text-gray-400">We’d love to hear from you. Please fill out this form or shoot us an email.</p>
+        </div>
+            <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
+                <div>
+                    <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                        </svg>
+                    </span>
+
+                    <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Email</h2>
+                    <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">hello@merakiui.com</p>
+                </div>
+
+                <div>
+                    <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z" />
+</svg>
+
+                    </span>
+                    
+                    <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Live chat</h2>
+                    <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">Start new chat</p>
+                </div>
+
+                <div>
+                    <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                        </svg>
+                    </span>
+                    
+                    <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Office</h2>
+                    <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Come say hello at our office HQ.</p>
+                    <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">100 Smith Street Collingwood VIC 3066 AU</p>
+                </div>
+
+                <div>
+                    <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                        </svg>
+                    </span>
+                    
+                    <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Phone</h2>
+                    <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
+                    <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">+1 (555) 000-0000</p>
+                </div>
+            </div>
+          </div>
+      
+
+            <div className="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-800 md:p-8">
+                <form>
+                    <div className="-mx-2 md:items-center md:flex">
+                        <div className="flex-1 px-2">
+                            <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">First Name</label>
+                            <input type="text" placeholder="John " className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                        </div>
+
+                        <div className="flex-1 px-2 mt-4 md:mt-0">
+                            <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Last Name</label>
+                            <input type="text" placeholder="Doe" className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                        </div>
+                    </div>
+
+                    <div className="mt-4">
+                        <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email address</label>
+                        <input type="email" placeholder="johndoe@example.com" className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                    </div>
+
+                    <div className="w-full mt-4">
+                        <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label>
+                        <textarea className="block w-full h-32 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
+                    </div>
+
+                    <button className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#6FBF42] rounded-lg hover:bg-gray-800 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                        Send message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
 
 
       <Footer />
