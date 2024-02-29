@@ -2,8 +2,11 @@
 'use client'
 import { useState } from 'react';
 import Image from 'next/image'
+import { useRouter } from 'next/navigation';
 const Navbar = () => {
     const [isOpen, setOpen] = useState(false);
+    const router =useRouter()
+
     return ( 
         <nav class="nav ">
         <div class="nav-container container mx-auto px-5 lg:px-28 border-b-[1px] border-solid border-black">
@@ -30,8 +33,8 @@ const Navbar = () => {
             <a href="/#culture">Offers</a>
             <a href="/blog">Opportunity</a>
             <a href="/blog">Media</a>
-            <button href="/login"
-                class=" block w-[200px] px-4 py-2 mt-4 text-sm font-medium leading-5 text-center text-white transition-colors duration-150 bg-[#F1C82D] border border-transparent rounded-lg active:bg-[#01382E] hover:bg-[#13A8BD] focus:outline-none focus:shadow-outline-purple ml-10"
+            <button onClick={()=>{router.push('/#contact')}}
+                class="block w-[200px] px-4 py-2 mt-4 text-sm font-medium leading-5 text-center text-white transition-colors duration-150 bg-[#F1C82D] border border-transparent rounded-lg active:bg-[#01382E] hover:bg-[#13A8BD] focus:outline-none focus:shadow-outline-purple ml-10"
               >
                Feedback
               </button>
